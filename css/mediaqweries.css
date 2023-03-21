@@ -98,4 +98,70 @@
     border-radius: 8px;
     margin-top: 32px;
 }
+/* <!-- Features you will love and banner --> */
+.image-writing-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 0px;
+    padding: 0 20px;
+    margin: 100px 20px 0 20px;
+}
+.writing{
+    width:90%;
+    height: auto;
+}
+.writing-tittle{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+    height: 106px;
+    width: 110%;
+}
+.writing-tittle-detail{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 14px;
+    text-align: left;
+}
+.writing-side-banner img{
+    width: 100%;
+    height: auto;
+}
+.writing-lists{
+    padding-left: 0px;
+    margin-top: 40px;
+}
+.writing-list{
+    margin-bottom: 30px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.writing-list-tittle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.writing-list-details{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+}
+.experince-button{
+    text-align: center;
+    background-color: #FF900E;
+    margin-left: 0px;
+    padding: 10px 0px;
+    margin-right: 0px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 90px;
+    right: 0px;
+    transform: scale(0.5);
+}
 }

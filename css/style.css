@@ -1,6 +1,11 @@
 /* common */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:ital@1&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+*{
+    /* <!-- fonts --> */
+    font-family: 'Work Sans', sans-serif;
+}
+
 body{
-    font-family: 'Poppins', sans-serif;
     background-color: #FF900E1A;
 }
 .container{
@@ -112,4 +117,83 @@ nav ul li a{
 .explore-button-two a{
     text-decoration: none;
     color: white;
+}
+/* <!-- Features you will love and banner --> */
+.image-writing-container{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.writing{
+    width: 815px;
+    height: auto;
+}
+.writing-tittle{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0;
+    height: 106px;
+}
+.writing-tittle-detail{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 24px;
+}
+.bar{
+    height: 106px;
+    width: 10px;
+    background-color: #FF900E;
+}
+.writing-side-banner img{
+    width: 120%;
+    height: auto;
+
+}
+.writing-lists{
+    padding-left: 33px;
+    margin-top: 40px;
+}
+.writing-list{
+    margin-bottom: 30px;
+    width: 486px;
+    border-radius: 8px;
+
+}
+.writing-list-tittle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.writing-list-details{
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+}
+/* <!-- experince button --> */
+.experince-button{
+    text-align: center;
+    background-color: #FF900E;
+    margin-left: 622px;
+    padding: 18px 0px;
+    margin-right: 200px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+.experince-button a{ 
+    text-decoration: none;
+    color: aliceblue;
+}
+.experience-tittle{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.experience-experience{
+    position: relative;
+    top: -10px;
 }
