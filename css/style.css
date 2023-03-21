@@ -183,6 +183,7 @@ nav ul li a{
     position: relative;
     bottom: 150px;
     right: 50px;
+    margin-bottom: -60px;
 }
 .experince-button a{ 
     text-decoration: none;
@@ -196,4 +197,14 @@ nav ul li a{
 .experience-experience{
     position: relative;
     top: -10px;
+}
+/* some fact */
+.some-fact-tittle{
+    font-size: 45px;font-weight: 700;
+    margin-bottom: 24px;
+}
+.some-fact-info{
+    font-size: 16px;
+    color: #727272;
+    width: 542px;
 }

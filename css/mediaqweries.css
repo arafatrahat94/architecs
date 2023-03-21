@@ -164,4 +164,18 @@
     right: 0px;
     transform: scale(0.5);
 }
+/* some fact */
+.some-fact-tittle{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.some-fact-info{
+    text-align: center;
+    font-size: 12px;
+    color: #727272;
+    width: 342px;
+    margin-left: 20px;
+}
 }
