@@ -5,9 +5,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-body{
-    background-color: #FF900E1A;
-}
 .container{
     margin: 0 228px;
 }
@@ -207,4 +204,128 @@ nav ul li a{
     font-size: 16px;
     color: #727272;
     width: 542px;
+}
+/* achivements */
+.achivements{
+    margin: 100px 0px;
+    justify-content: center;
+    display: flex;
+    gap: 70px;
+}
+.achivement{
+    text-align: center;
+    /* background-color: aqua; */
+    height: 210px;
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+}
+.achivement:hover{
+    animation: color 3s linear 5ms infinite;
+    transform: rotate();
+    color: rgb(0, 0, 0);
+}
+@keyframes color {
+    0% {
+        transform: rotate(0.5);
+        background: linear-gradient(120deg, #01080b 0%, #048a6b 100%);
+    }
+    50%{
+        background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    }
+    100% {
+        transform: scale(0.9);
+        background-image: linear-gradient(red, black);
+    }
+    
+}
+.achivement img{
+    margin-top: 10px;
+    width: 45.22px;
+    height: 45.22px;
+}
+.achivement:hover .achivement-number{
+    color: white;
+}
+.achivement-number{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.achivement-tittle{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #727272;
+}
+.achivement:hover .achivement-tittle{
+    color: white;
+}
+/* about-us */
+.about-us-box{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.about-us-banner img{
+    width: 120%;
+    border-radius: 10px;
+}
+.about-us-container{
+    position: relative;
+    bottom: 20px;
+}
+.about-us-tittle{
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+.about-us-info{
+    font-size: 16px;
+    margin-top: 0;
+    width: 600px;
+    color: #727272;
+}
+/* footer-part */
+.sponsers-info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponser-tittle{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsor-info{
+    margin-top: 0%;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sponser-img{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.sponser-img img{
+    width: 145px;
+    filter: grayscale(100%);
+}
+/* copy-right-part */
+body .copy-right{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #fff4e7;
+    padding: 19px 0;
 }
